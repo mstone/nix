@@ -11,7 +11,9 @@
 #include "eval-inline.hh"
 #include "download.hh"
 
+#include <dirent.h>
 #include <sys/types.h>
+#include <sys/dirent.h>
 #include <sys/stat.h>
 #include <unistd.h>
 

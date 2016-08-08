@@ -12,7 +12,9 @@
 #include "value-to-xml.hh"
 #include "primops.hh"
 
+#include <dirent.h>
 #include <sys/types.h>
+#include <sys/dirent.h>
 #include <sys/stat.h>
 #include <unistd.h>
 
